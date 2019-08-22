@@ -3,7 +3,7 @@ def new_hash
 end
 
 def my_hash
-  { "Programming" => "is great!" }
+  { :myaname  => "Haami" }
 end
 
 def pioneer
@@ -11,7 +11,7 @@ def pioneer
 end
 
 def id_generator
-  {id: 4}
+  {:id => 5}
 end
 
 def my_hash_creator(key, value)
